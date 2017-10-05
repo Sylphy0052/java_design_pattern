@@ -3,12 +3,13 @@ import java.util.ArrayList;
 
 public class Main {
   public static void main(String[] args) {
-    List<String> bookNames = new ArrayList<>();
+    List<String> bookNames = new ArrayList<String>();
     bookNames.add("Around the World in 80 Days");
     bookNames.add("Bible");
     bookNames.add("Cinderella");
     bookNames.add("Daddy-Long-Legs");
     BookShelf bookShelf = new BookShelf(bookNames.size());
+    // BookShelf bookShelf = new BookShelf();
     // for(String s : bookNames) {
     //   bookShelf.appendBook(new Book(s));
     // }
